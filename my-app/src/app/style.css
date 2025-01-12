@@ -1,0 +1,33 @@
+#topbar {
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  #Footer {
+    background-color: #000000;
+    background-image: url('/footer-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Remove dropdown borders */
+#Lowernavbar .dropdown-toggle {
+    border: none;
+    box-shadow: none;
+  }
+  
+  /* Right align "View All News" */
+.view-all-news {
+    margin-left: auto;
+  }
+  
+.dropdown-no-underline {
+    text-decoration: none !important;
+  }
+  
+.dropdown-no-underline:hover {
+    text-decoration: underline !important; /* Optional: underline only on hover */
+  }
